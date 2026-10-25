@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Heart, X, MessageSquareHeart, Star, MapPin } from 'lucide-react';
-import { initTelegramApp, triggerHaptic } from './config/telegram';
+import { initTelegramApp, triggerHaptic } from './config/telegram.js';
 import ChatView from './ChatView';
 import MatchesView from './MatchesView';
 import MediaUploadView from './MediaUploadView';
